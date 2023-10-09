@@ -1,1 +1,1 @@
-This database uses data from NCBI RefSeq (https://www.ncbi.nlm.nih.gov/refseq/). They were downloaded on 2023-09-02 from https://www.ncbi.nlm.nih.gov/datasets/genome. See metadata.csv for a list of datasets.
+This database uses data from NCBI RefSeq (https://www.ncbi.nlm.nih.gov/refseq/). They were downloaded on 2023-09-02 from https://www.ncbi.nlm.nih.gov/datasets/genome. See metadata.csv for a list of datasets (identified by assembly accession).

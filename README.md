@@ -20,4 +20,4 @@ The build process of the database is part of the CoCoPyE CLI. Just run `cocopye 
 
 ### Additional files
 
-The build command automatically creates most required files. However, you still have to manually add the files for the machine learning method (most likely a neural network). The files have to be named `model_comp.pickle` for the completeness predictor and `model_cont.pickle` for contamination. If you want to make a new release, you should also increment the version number in `version.txt` to match the release version.
+The build command automatically creates most required files. However, you still have to manually add the files for the machine learning method (most likely a neural network). The files have to be named `model_comp.pickle` for the completeness predictor and `model_cont.pickle` for contamination. Additionally, you have to copy some FASTA files into a directory `testdata` for use with the `cocopye toolbox testrun` command (I would recommend to just use some sequences from your input set). If you want to make a new release, you should also increment the version number in `version.txt` to match the release version.
