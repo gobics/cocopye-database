@@ -4,11 +4,11 @@ This is the database repository for CoCoPyE. It is mainly used as a download sou
 
 ## Database Structure
 
-CoCoPyE can be used with Pfam versions 24 and 28. It has to use a database that was build with the same version. They can be found in the corresponding folders (`24` and `28`). `testdata` contains several sequences from the reference that can be used with `cocopye toolbox testrun`. version.txt`contains the current version (has to be incremented manually when a new release is published). `info.txt` contains information about the dataset source. `scripts` contains Python files that are used to build or update this database. They are not required for running CoCoPyE. (I decided to include them here for completeness reasons.)
+CoCoPyE can be used with Pfam versions 24 and 28. It has to use a database that was build with the same version. They can be found in the corresponding folders (`24` and `28`). `testdata` contains several sequences from the reference that can be used with `cocopye toolbox testrun`. `version.txt` contains the current version (has to be incremented manually when a new release is published). `info.txt` contains information about the dataset source. `scripts` contains Python files that are used to build or update this database. They are not required for running CoCoPyE. (I decided to include them here for completeness reasons.)
 
 ## How to update this database
 
-This is a step-by-step instruction (for myself or future maintainers of this repository) how to update the database.
+These are step-by-step instructions (for myself or future maintainers of this repository) on how to update the database.
 
 1. Create a new environment and install the requirements.
 
