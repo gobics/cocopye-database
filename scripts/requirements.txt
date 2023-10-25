@@ -1,0 +1,6 @@
+numpy
+scikit-learn
+pandas
+ncbitax2lin
+ncbi_genome_download
+# cocopye 
