@@ -68,9 +68,9 @@ git push
 8. On GitHub: Create a new release with the new version number. Attach the repository contents as `database.zip`. Mark the new release as latest.
 
 > **important**
-> CoCoPyE expects that the database files and folders (like `28`, `24`, `version.txt`, ...) are at the top-level of `database.zip`. After creating the repository you should check that this is indeed the case.
+> CoCoPyE expects that the database files and folders (like `28`, `24`, `version.txt`, ...) are at the top-level of `database.zip`. After creating the archive you should check that this is indeed the case.
 
-9. Run `cocopye toolbox update-database` to make sure everything went right.
+9. Run `cocopye setup update-database` to make sure everything went right.
 
 ## General Database Build Process
 
